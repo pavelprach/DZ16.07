@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_add" Content="Добавить" HorizontalAlignment="Left" Margin="324,235,0,0" VerticalAlignment="Top" Height="41" Width="114" Click="btn_add_Click"/>
+        <Button x:Name="btn_import" Content="импорт" HorizontalAlignment="Left" Margin="40,192,0,0" VerticalAlignment="Top" Height="31" Width="88" Click="btn_import_Click"/>
+        <Button x:Name="btn_export" Content="экспорт" HorizontalAlignment="Left" Margin="636,196,0,0" VerticalAlignment="Top" Height="32" Width="78" Click="btn_export_Click"/>
+        <TextBox x:Name="input_name" HorizontalAlignment="Left" Margin="180,88,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="372" Height="37"/>
+        <TextBox x:Name="input_phone" HorizontalAlignment="Left" Margin="179,152,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="371" Height="33"/>
+
+    </Grid>
+</Window>
